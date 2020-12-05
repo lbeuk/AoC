@@ -9,7 +9,6 @@ with open("data.txt", "r") as data:
             else:
                 binstring += "1"
         asint = int(binstring, 2)
-        print(binstring, " ", asint)
         if asint > highest:
             highest = asint
     print(highest)
